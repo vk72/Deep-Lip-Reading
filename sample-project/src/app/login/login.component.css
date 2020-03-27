@@ -1,0 +1,32 @@
+#blue-div{
+    height: 600px;
+    padding-top: 5%;
+    background-color: black;
+}
+#center-space{
+    background-color: antiquewhite;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10%;
+    text-align: left;
+    padding: 5%;
+}
+#center-large-space{
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10%;
+    text-align: left;
+    padding: 5%;
+}
+.center-space-label{
+    font-size: 20px;
+    font-weight: 600;
+    width:100%;
+    background-color: beige;
+}
+.center-space-input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 4%;
+}
