@@ -6,5 +6,9 @@
     </div>
 </body>
 <input type="file" (change)="onFileSelected($event)">     
-<button type="button" (click)="onUpload">Upload</button>
+<button type="button" (click)="onUpload()">Upload</button>
+<video>
+    <source src="{{fileUrl}}"/>
+</video>
+<h3 style="text-align: center;" *ngIf="pred">Predicted sentence:<i>{{pred}}</i></h3>
 <router-outlet></router-outlet>

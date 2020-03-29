@@ -10,6 +10,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 import { HttpClientModule } from '@angular/common/http';
+// import { MatVideoModule } from 'mat-video';
 
 @NgModule({
   declarations: [
